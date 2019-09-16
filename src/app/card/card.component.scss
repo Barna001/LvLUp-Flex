@@ -1,0 +1,33 @@
+.title {
+  font-size: 20px;
+}
+
+.buttons {
+  float: right;
+}
+
+.padding {
+  padding: 0px 0px 5px 5px;
+}
+
+.buttons button {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.row {
+  display: table;
+  width: 100%;
+}
+
+.column {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
