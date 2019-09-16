@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+app-card {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.row {
+  display: table;
+  width: 100%;
+}
+
+.column {
+  display: table-cell;
+}

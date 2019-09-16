@@ -3,7 +3,10 @@
 }
 
 .buttons {
-  float: right;
+  position: absolute;
+  bottom: 0;
+  text-align: right;
+  width: 100%;
 }
 
 .padding {
@@ -17,17 +20,11 @@
   height: 30px;
 }
 
-.row {
-  display: table;
-  width: 100%;
-}
-
-.column {
-  display: table-cell;
-  vertical-align: middle;
-}
-
 img {
   width: 100px;
   height: 100px;
+}
+
+.v-middle {
+  vertical-align: middle;
 }
